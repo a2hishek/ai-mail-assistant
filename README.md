@@ -4,9 +4,9 @@
 An intelligent email management system that automatically fetches, analyzes, and helps respond to customer support emails using AI-powered sentiment analysis and draft generation.
 
 ## Demo Video:
-<img width="1716" height="637" alt="image" src="https://github.com/user-attachments/assets/265bb32f-d3ea-402d-94da-5b3b514431e3" />
 
- [Watch the demo](https://drive.google.com/file/d/1WBEs3qL5A-QOf4n4KpKPnl81mf6MQfks/view?usp=sharing)
+
+ [[Watch the demo](<img width="1716" height="637" alt="image" src="https://github.com/user-attachments/assets/265bb32f-d3ea-402d-94da-5b3b514431e3" />)](https://drive.google.com/file/d/1WBEs3qL5A-QOf4n4KpKPnl81mf6MQfks/view?usp=sharing)
 
 
 
