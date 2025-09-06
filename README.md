@@ -1,6 +1,12 @@
+
 # AI Email Assistant
 
 An intelligent email management system that automatically fetches, analyzes, and helps respond to customer support emails using AI-powered sentiment analysis and draft generation.
+
+## Demo Video:
+ [Watch the demo](https://drive.google.com/file/d/1WBEs3qL5A-QOf4n4KpKPnl81mf6MQfks/view?usp=sharing)
+
+
 
 ## Features
 
