@@ -1,6 +1,5 @@
 from sqlalchemy import Column, Integer, String, Text, DateTime
 from sqlalchemy.orm import declarative_base
-import uuid
 
 Base = declarative_base()
 
@@ -16,7 +15,8 @@ class Email(Base):
     priority = Column(String(50), default="Not urgent")
     sentiment = Column(String(50), default="Neutral")
     status = Column(String(50), default="pending")
-    draft_reply = Column(Text, nullable=True) 
+    draft_reply = Column(Text, nullable=True)
+    date_sent = Column(DateTime, nullable=True) 
 
 class KBDoc(Base):
     __tablename__ = "kb_docs"

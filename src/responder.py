@@ -84,10 +84,12 @@ def send_reply(email_obj: Email, reply_text: str):
             server.sendmail(SMTP_USER, [email_obj.sender], msg.as_string())
 
         # Mark as replied in DB
+        from datetime import datetime
         session = SessionLocal()
         db_email = session.query(Email).get(email_obj.id)
         db_email.status = "replied"
         db_email.draft_reply = reply_text  # store final sent reply
+        db_email.date_sent = datetime.now()  # record when reply was sent
         session.commit()
         session.close()
 

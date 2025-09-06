@@ -125,10 +125,9 @@ else:
             "ID": e.id,
             "From": e.sender,
             "Subject": e.subject,
-            "Sentiment": e.sentiment,
             "Priority": e.priority,
-            "Support Type": e.support,
-            "Date Received": e.date_received.strftime("%Y-%m-%d %H:%M") if e.date_received else "N/A"
+            "Date Received": e.date_received.strftime("%Y-%m-%d %H:%M") if e.date_received else "N/A",
+            "Date Sent": e.date_sent.strftime("%Y-%m-%d %H:%M") if e.date_sent else "N/A"
         } for e in replied_emails])
         
         st.dataframe(replied_df, use_container_width=True)
