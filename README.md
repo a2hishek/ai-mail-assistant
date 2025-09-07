@@ -191,16 +191,6 @@ ai-email-assistant/
    - Run `pip install -r requirements.txt` again
    - Check Python version compatibility (3.8+)
 
-### Testing
-
-Run the dashboard locally and test with sample emails:
-```bash
-cd src
-python imap_fetcher.py  # Test email fetching
-python nlp.py          # Test NLP processing
-streamlit run dashboard_app.py  # Test full application
-```
-
 
 
 
