@@ -168,13 +168,6 @@ ai-email-assistant/
 - Sentence transformer embeddings
 - Contextual information for better responses
 
-## API Keys and Security
-
-- Never commit API keys to version control
-- Use environment variables for all sensitive data
-- The `.env` file is gitignored for security
-- Use app passwords for email authentication
-
 ## Troubleshooting
 
 ### Common Issues
